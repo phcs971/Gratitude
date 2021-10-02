@@ -7,7 +7,6 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>AddGratitudeIntent</string>
-		<string>SiriAddGratitudeIntent</string>
 	</array>
 </dict>
 </plist>
