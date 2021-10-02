@@ -1,0 +1,25 @@
+"tap_the_jar" = "Tap the Jar to remember something you are grateful for...";
+"i_am_grateful" = "I am grateful for...";
+"type_here" = "Type here";
+"confirm" = "CONFIRM";
+"settings" = "Settings";
+"language" = "Language";
+"show_notifications" = "Show Notifications";
+"your_gratitudes" = "Your Gratitudes";
+"delete_all" = "Delete All Gratitudes";
+"are_you_sure" = "Are you sure you want to do this?";
+"delete_forever" = "This will delete all your gratitudes forever.";
+"no_gratitudes" = "You don't have any Gratitudes yet...";
+"yes" = "Yes";
+
+"hey" = "Hey!";
+
+"1_week" = "1 week ago";
+"2_week" = "2 weeks ago";
+"3_week" = "3 weeks ago";
+"1_month" = "1 month ago";
+"2_month" = "2 months ago";
+"3_month" = "3 months ago";
+
+"you_were_grateful_for" = "you were grateful for";
+"what_now" = "What are you grateful for today?";

@@ -7,18 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65A20856B6D4BE3657883E8A /* Pods_gratitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F4B7D1138721BD1945B9C8 /* Pods_gratitude.framework */; };
+		A22B4C7B8F32F3471BFC005A /* Pods_SiriGratitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A461778E9D81E6F289AE33 /* Pods_SiriGratitude.framework */; };
+		EE10F4C727062EB100632ED6 /* JarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4C627062EB100632ED6 /* JarView.swift */; };
+		EE10F4CB2706386700632ED6 /* JarScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE10F4CA2706386700632ED6 /* JarScene.sks */; };
+		EE10F4CD2706398300632ED6 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4CC2706398300632ED6 /* MotionService.swift */; };
+		EE10F4CF27063BEB00632ED6 /* JarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4CE27063BEB00632ED6 /* JarViewModel.swift */; };
+		EE10F4D127063BFA00632ED6 /* JarScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4D027063BFA00632ED6 /* JarScene.swift */; };
+		EE10F4D62706504200632ED6 /* GratitudeFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4D52706504200632ED6 /* GratitudeFieldView.swift */; };
+		EE10F4D82706523D00632ED6 /* DeleteAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4D72706523D00632ED6 /* DeleteAllButton.swift */; };
+		EE10F4DB270656F700632ED6 /* CreateGratitudeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4DA270656F700632ED6 /* CreateGratitudeButton.swift */; };
+		EE10F4DD2706577400632ED6 /* HomeTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4DC2706577400632ED6 /* HomeTopBarView.swift */; };
+		EE10F4DF2706579B00632ED6 /* HomeLeadingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4DE2706579B00632ED6 /* HomeLeadingIcon.swift */; };
+		EE10F4E1270657F900632ED6 /* HomeLeadingIconImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4E0270657F900632ED6 /* HomeLeadingIconImage.swift */; };
+		EE10F4E3270658C800632ED6 /* HomePaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4E2270658C800632ED6 /* HomePaperView.swift */; };
+		EE10F4E5270658EA00632ED6 /* HomePaperChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4E4270658EA00632ED6 /* HomePaperChildView.swift */; };
+		EE10F4E72706593B00632ED6 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4E62706593B00632ED6 /* ColorPickerView.swift */; };
+		EE10F4E92706599000632ED6 /* JarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10F4E82706599000632ED6 /* JarButton.swift */; };
+		EE8FA79B2704D77900FDD1A0 /* ColorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FA79A2704D77900FDD1A0 /* ColorSelectionView.swift */; };
+		EE8FA79E2704E47700FDD1A0 /* GratitudeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FA79D2704E47700FDD1A0 /* GratitudeRepository.swift */; };
+		EE8FA7A027050BDC00FDD1A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FA79F27050BDC00FDD1A0 /* AppDelegate.swift */; };
+		EE8FA7A227050CE300FDD1A0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FA7A127050CE300FDD1A0 /* HomeViewModel.swift */; };
+		EE8FA7A527050D3400FDD1A0 /* GratitudeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FA7A427050D3400FDD1A0 /* GratitudeViewModel.swift */; };
+		EE8FA7A72705306C00FDD1A0 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FA7A62705306C00FDD1A0 /* SettingsViewModel.swift */; };
 		EEC37A08270385FB00C7A839 /* gratitudeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC37A07270385FB00C7A839 /* gratitudeApp.swift */; };
-		EEC37A0A270385FB00C7A839 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC37A09270385FB00C7A839 /* ContentView.swift */; };
 		EEC37A0C270385FD00C7A839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC37A0B270385FD00C7A839 /* Assets.xcassets */; };
 		EEC37A0F270385FD00C7A839 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC37A0E270385FD00C7A839 /* Preview Assets.xcassets */; };
+		EEC37A18270386A000C7A839 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC37A17270386A000C7A839 /* CloudKit.framework */; };
+		EEC37A1A2703872000C7A839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC37A192703872000C7A839 /* LaunchScreen.storyboard */; };
+		EEC37A1D270389CF00C7A839 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC37A1C270389CF00C7A839 /* colors.swift */; };
+		EEC6140B27077F1000082701 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC613D527077D6A00082701 /* Intents.framework */; };
+		EEC6140E27077F1000082701 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6140D27077F1000082701 /* IntentHandler.swift */; };
+		EEC6141227077F1000082701 /* SiriGratitude.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EEC6140A27077F1000082701 /* SiriGratitude.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EEC614172707809A00082701 /* GratitudeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FA79D2704E47700FDD1A0 /* GratitudeRepository.swift */; };
+		EEC61418270781B100082701 /* GratitudeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F2427038CB9005A24FF /* GratitudeModel.swift */; };
+		EEC61419270781C400082701 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC37A1C270389CF00C7A839 /* colors.swift */; };
+		EEC6141B2707878700082701 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC37A17270386A000C7A839 /* CloudKit.framework */; };
+		EEC6141D27078D6A00082701 /* SiriService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6141C27078D6A00082701 /* SiriService.swift */; };
+		EEC6141E27078DE600082701 /* SiriService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6141C27078D6A00082701 /* SiriService.swift */; };
+		EEC614202707999E00082701 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6141F2707999E00082701 /* SettingsService.swift */; };
+		EEC614222707A18200082701 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC614212707A18200082701 /* extensions.swift */; };
+		EEC614232708897200082701 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC614252708897200082701 /* Localizable.strings */; };
+		EEC6142A270891CE00082701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC6142C270891CE00082701 /* InfoPlist.strings */; };
+		EEC6143027089A5000082701 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6142E2708946C00082701 /* NotificationService.swift */; };
+		EEC6143127089A5000082701 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6142E2708946C00082701 /* NotificationService.swift */; };
+		EEC6143227089B7800082701 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6141F2707999E00082701 /* SettingsService.swift */; };
+		EEC6143327089B8400082701 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC614252708897200082701 /* Localizable.strings */; };
+		EEC6143427089B8C00082701 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC614212707A18200082701 /* extensions.swift */; };
+		EEC6143527089E5B00082701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC6142C270891CE00082701 /* InfoPlist.strings */; };
+		EEC6144A2708A65B00082701 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EEC614492708A65B00082701 /* Intents.intentdefinition */; };
+		EEC6144B2708A65B00082701 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EEC614492708A65B00082701 /* Intents.intentdefinition */; };
+		EEE93F2527038CB9005A24FF /* GratitudeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F2427038CB9005A24FF /* GratitudeModel.swift */; };
+		EEE93F292703924A005A24FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F282703924A005A24FF /* HomeView.swift */; };
+		EEE93F2C27039305005A24FF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F2B27039305005A24FF /* BackgroundView.swift */; };
+		EEE93F2E270397FE005A24FF /* RippedPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F2D270397FE005A24FF /* RippedPaper.swift */; };
+		EEE93F3127039F73005A24FF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F3027039F73005A24FF /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EEC6141027077F1000082701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC379FC270385FB00C7A839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC6140927077F1000082701;
+			remoteInfo = SiriGratitude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEC613F527077D6A00082701 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EEC6141227077F1000082701 /* SiriGratitude.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		EEC37A04270385FB00C7A839 /* gratitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gratitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		447531081AF705B5CCB62EB3 /* Pods-SiriGratitude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriGratitude.release.xcconfig"; path = "Target Support Files/Pods-SiriGratitude/Pods-SiriGratitude.release.xcconfig"; sourceTree = "<group>"; };
+		9B72A6639D48A6F94320BC32 /* Pods-gratitude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gratitude.debug.xcconfig"; path = "Target Support Files/Pods-gratitude/Pods-gratitude.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D14867271BABFBC3CAC34F /* Pods-gratitude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gratitude.release.xcconfig"; path = "Target Support Files/Pods-gratitude/Pods-gratitude.release.xcconfig"; sourceTree = "<group>"; };
+		B47B623020C251701A3E28FE /* Pods-SiriGratitude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriGratitude.debug.xcconfig"; path = "Target Support Files/Pods-SiriGratitude/Pods-SiriGratitude.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A461778E9D81E6F289AE33 /* Pods_SiriGratitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiriGratitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F4B7D1138721BD1945B9C8 /* Pods_gratitude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gratitude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE10F4C627062EB100632ED6 /* JarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarView.swift; sourceTree = "<group>"; };
+		EE10F4CA2706386700632ED6 /* JarScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = JarScene.sks; sourceTree = "<group>"; };
+		EE10F4CC2706398300632ED6 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		EE10F4CE27063BEB00632ED6 /* JarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarViewModel.swift; sourceTree = "<group>"; };
+		EE10F4D027063BFA00632ED6 /* JarScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarScene.swift; sourceTree = "<group>"; };
+		EE10F4D52706504200632ED6 /* GratitudeFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeFieldView.swift; sourceTree = "<group>"; };
+		EE10F4D72706523D00632ED6 /* DeleteAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAllButton.swift; sourceTree = "<group>"; };
+		EE10F4DA270656F700632ED6 /* CreateGratitudeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGratitudeButton.swift; sourceTree = "<group>"; };
+		EE10F4DC2706577400632ED6 /* HomeTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopBarView.swift; sourceTree = "<group>"; };
+		EE10F4DE2706579B00632ED6 /* HomeLeadingIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLeadingIcon.swift; sourceTree = "<group>"; };
+		EE10F4E0270657F900632ED6 /* HomeLeadingIconImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLeadingIconImage.swift; sourceTree = "<group>"; };
+		EE10F4E2270658C800632ED6 /* HomePaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePaperView.swift; sourceTree = "<group>"; };
+		EE10F4E4270658EA00632ED6 /* HomePaperChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePaperChildView.swift; sourceTree = "<group>"; };
+		EE10F4E62706593B00632ED6 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		EE10F4E82706599000632ED6 /* JarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarButton.swift; sourceTree = "<group>"; };
+		EE8FA79A2704D77900FDD1A0 /* ColorSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectionView.swift; sourceTree = "<group>"; };
+		EE8FA79D2704E47700FDD1A0 /* GratitudeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeRepository.swift; sourceTree = "<group>"; };
+		EE8FA79F27050BDC00FDD1A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE8FA7A127050CE300FDD1A0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EE8FA7A427050D3400FDD1A0 /* GratitudeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeViewModel.swift; sourceTree = "<group>"; };
+		EE8FA7A62705306C00FDD1A0 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		EEC37A04270385FB00C7A839 /* Gratitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC37A07270385FB00C7A839 /* gratitudeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gratitudeApp.swift; sourceTree = "<group>"; };
-		EEC37A09270385FB00C7A839 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEC37A0B270385FD00C7A839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC37A0E270385FD00C7A839 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEC37A152703869900C7A839 /* gratitude.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gratitude.entitlements; sourceTree = "<group>"; };
+		EEC37A17270386A000C7A839 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		EEC37A192703872000C7A839 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEC37A1C270389CF00C7A839 /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		EEC613CF27077AF100082701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EEC613D527077D6A00082701 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		EEC613E027077D6A00082701 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		EEC6140A27077F1000082701 /* SiriGratitude.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriGratitude.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC6140D27077F1000082701 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		EEC6140F27077F1000082701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC6141A2707878200082701 /* SiriGratitude.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriGratitude.entitlements; sourceTree = "<group>"; };
+		EEC6141C27078D6A00082701 /* SiriService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriService.swift; sourceTree = "<group>"; };
+		EEC6141F2707999E00082701 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		EEC614212707A18200082701 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		EEC614242708897200082701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EEC614262708897900082701 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EEC6142B270891CE00082701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEC6142D270891CF00082701 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EEC6142E2708946C00082701 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		EEC614492708A65B00082701 /* Intents.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		EEE93F2427038CB9005A24FF /* GratitudeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeModel.swift; sourceTree = "<group>"; };
+		EEE93F282703924A005A24FF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEE93F2B27039305005A24FF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		EEE93F2D270397FE005A24FF /* RippedPaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippedPaper.swift; sourceTree = "<group>"; };
+		EEE93F3027039F73005A24FF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,24 +152,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC37A18270386A000C7A839 /* CloudKit.framework in Frameworks */,
+				65A20856B6D4BE3657883E8A /* Pods_gratitude.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC6140727077F1000082701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC6141B2707878700082701 /* CloudKit.framework in Frameworks */,
+				EEC6140B27077F1000082701 /* Intents.framework in Frameworks */,
+				A22B4C7B8F32F3471BFC005A /* Pods_SiriGratitude.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE10F4C527062EA500632ED6 /* jar */ = {
+			isa = PBXGroup;
+			children = (
+				EE10F4CA2706386700632ED6 /* JarScene.sks */,
+				EE10F4CE27063BEB00632ED6 /* JarViewModel.swift */,
+				EE10F4C627062EB100632ED6 /* JarView.swift */,
+				EE10F4D027063BFA00632ED6 /* JarScene.swift */,
+			);
+			path = jar;
+			sourceTree = "<group>";
+		};
+		EE10F4D227063F6E00632ED6 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				EE10F4CC2706398300632ED6 /* MotionService.swift */,
+				EEC6141C27078D6A00082701 /* SiriService.swift */,
+				EEC6141F2707999E00082701 /* SettingsService.swift */,
+				EEC6142E2708946C00082701 /* NotificationService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		EE10F4D32706501B00632ED6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EE10F4D52706504200632ED6 /* GratitudeFieldView.swift */,
+				EE10F4D72706523D00632ED6 /* DeleteAllButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		EE10F4D9270656CF00632ED6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EE10F4DA270656F700632ED6 /* CreateGratitudeButton.swift */,
+				EE10F4DC2706577400632ED6 /* HomeTopBarView.swift */,
+				EE10F4DE2706579B00632ED6 /* HomeLeadingIcon.swift */,
+				EE10F4E0270657F900632ED6 /* HomeLeadingIconImage.swift */,
+				EE10F4E2270658C800632ED6 /* HomePaperView.swift */,
+				EE10F4E4270658EA00632ED6 /* HomePaperChildView.swift */,
+				EE10F4E62706593B00632ED6 /* ColorPickerView.swift */,
+				EE10F4E82706599000632ED6 /* JarButton.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		EE8FA79C2704E44500FDD1A0 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				EE8FA79D2704E47700FDD1A0 /* GratitudeRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		EE8FA7A327050D2400FDD1A0 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE8FA7A427050D3400FDD1A0 /* GratitudeViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
 		EEC379FB270385FB00C7A839 = {
 			isa = PBXGroup;
 			children = (
 				EEC37A06270385FB00C7A839 /* gratitude */,
+				EEC6140C27077F1000082701 /* SiriGratitude */,
 				EEC37A05270385FB00C7A839 /* Products */,
+				EEC37A16270386A000C7A839 /* Frameworks */,
+				F9D5D5CCFEFF087BE2E28681 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		EEC37A05270385FB00C7A839 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEC37A04270385FB00C7A839 /* gratitude.app */,
+				EEC37A04270385FB00C7A839 /* Gratitude.app */,
+				EEC6140A27077F1000082701 /* SiriGratitude.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +255,20 @@
 		EEC37A06270385FB00C7A839 /* gratitude */ = {
 			isa = PBXGroup;
 			children = (
+				EEC613CF27077AF100082701 /* Info.plist */,
+				EEC6142C270891CE00082701 /* InfoPlist.strings */,
+				EE10F4D227063F6E00632ED6 /* services */,
+				EE8FA7A327050D2400FDD1A0 /* viewModels */,
+				EE8FA79C2704E44500FDD1A0 /* repositories */,
+				EEE93F2A27039288005A24FF /* components */,
+				EEE93F2627039229005A24FF /* views */,
+				EEE93F2327038C79005A24FF /* models */,
+				EEC37A1B270389BD00C7A839 /* utils */,
+				EEC37A152703869900C7A839 /* gratitude.entitlements */,
 				EEC37A07270385FB00C7A839 /* gratitudeApp.swift */,
-				EEC37A09270385FB00C7A839 /* ContentView.swift */,
+				EE8FA79F27050BDC00FDD1A0 /* AppDelegate.swift */,
 				EEC37A0B270385FD00C7A839 /* Assets.xcassets */,
+				EEC37A192703872000C7A839 /* LaunchScreen.storyboard */,
 				EEC37A0D270385FD00C7A839 /* Preview Content */,
 			);
 			path = gratitude;
@@ -67,6 +282,98 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EEC37A16270386A000C7A839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC37A17270386A000C7A839 /* CloudKit.framework */,
+				C8F4B7D1138721BD1945B9C8 /* Pods_gratitude.framework */,
+				EEC613D527077D6A00082701 /* Intents.framework */,
+				EEC613E027077D6A00082701 /* IntentsUI.framework */,
+				C6A461778E9D81E6F289AE33 /* Pods_SiriGratitude.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEC37A1B270389BD00C7A839 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EEC37A1C270389CF00C7A839 /* colors.swift */,
+				EEC614212707A18200082701 /* extensions.swift */,
+				EEC614252708897200082701 /* Localizable.strings */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EEC6140C27077F1000082701 /* SiriGratitude */ = {
+			isa = PBXGroup;
+			children = (
+				EEC614492708A65B00082701 /* Intents.intentdefinition */,
+				EEC6141A2707878200082701 /* SiriGratitude.entitlements */,
+				EEC6140D27077F1000082701 /* IntentHandler.swift */,
+				EEC6140F27077F1000082701 /* Info.plist */,
+			);
+			path = SiriGratitude;
+			sourceTree = "<group>";
+		};
+		EEE93F2327038C79005A24FF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EEE93F2427038CB9005A24FF /* GratitudeModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EEE93F2627039229005A24FF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EE10F4C527062EA500632ED6 /* jar */,
+				EEE93F2F27039F64005A24FF /* settings */,
+				EEE93F2727039237005A24FF /* home */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EEE93F2727039237005A24FF /* home */ = {
+			isa = PBXGroup;
+			children = (
+				EE10F4D9270656CF00632ED6 /* components */,
+				EEE93F282703924A005A24FF /* HomeView.swift */,
+				EE8FA7A127050CE300FDD1A0 /* HomeViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		EEE93F2A27039288005A24FF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EEE93F2B27039305005A24FF /* BackgroundView.swift */,
+				EEE93F2D270397FE005A24FF /* RippedPaper.swift */,
+				EE8FA79A2704D77900FDD1A0 /* ColorSelectionView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		EEE93F2F27039F64005A24FF /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE10F4D32706501B00632ED6 /* components */,
+				EEE93F3027039F73005A24FF /* SettingsView.swift */,
+				EE8FA7A62705306C00FDD1A0 /* SettingsViewModel.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		F9D5D5CCFEFF087BE2E28681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B72A6639D48A6F94320BC32 /* Pods-gratitude.debug.xcconfig */,
+				A2D14867271BABFBC3CAC34F /* Pods-gratitude.release.xcconfig */,
+				B47B623020C251701A3E28FE /* Pods-SiriGratitude.debug.xcconfig */,
+				447531081AF705B5CCB62EB3 /* Pods-SiriGratitude.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,18 +381,39 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEC37A12270385FD00C7A839 /* Build configuration list for PBXNativeTarget "gratitude" */;
 			buildPhases = (
+				CFB9364437483660B0461094 /* [CP] Check Pods Manifest.lock */,
 				EEC37A00270385FB00C7A839 /* Sources */,
 				EEC37A01270385FB00C7A839 /* Frameworks */,
 				EEC37A02270385FB00C7A839 /* Resources */,
+				EEC613F527077D6A00082701 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC6141127077F1000082701 /* PBXTargetDependency */,
+			);
+			name = gratitude;
+			productName = gratitude;
+			productReference = EEC37A04270385FB00C7A839 /* Gratitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEC6140927077F1000082701 /* SiriGratitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC6141327077F1000082701 /* Build configuration list for PBXNativeTarget "SiriGratitude" */;
+			buildPhases = (
+				6D376C593844197C232AFBF4 /* [CP] Check Pods Manifest.lock */,
+				EEC6140627077F1000082701 /* Sources */,
+				EEC6140727077F1000082701 /* Frameworks */,
+				EEC6140827077F1000082701 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = gratitude;
-			productName = gratitude;
-			productReference = EEC37A04270385FB00C7A839 /* gratitude.app */;
-			productType = "com.apple.product-type.application";
+			name = SiriGratitude;
+			productName = SiriGratitude;
+			productReference = EEC6140A27077F1000082701 /* SiriGratitude.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +428,9 @@
 					EEC37A03270385FB00C7A839 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					EEC6140927077F1000082701 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = EEC379FF270385FB00C7A839 /* Build configuration list for PBXProject "gratitude" */;
@@ -108,6 +439,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"pt-BR",
 				Base,
 			);
 			mainGroup = EEC379FB270385FB00C7A839;
@@ -116,6 +448,7 @@
 			projectRoot = "";
 			targets = (
 				EEC37A03270385FB00C7A839 /* gratitude */,
+				EEC6140927077F1000082701 /* SiriGratitude */,
 			);
 		};
 /* End PBXProject section */
@@ -125,30 +458,166 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC614232708897200082701 /* Localizable.strings in Resources */,
+				EEC6142A270891CE00082701 /* InfoPlist.strings in Resources */,
+				EEC37A1A2703872000C7A839 /* LaunchScreen.storyboard in Resources */,
 				EEC37A0F270385FD00C7A839 /* Preview Assets.xcassets in Resources */,
+				EE10F4CB2706386700632ED6 /* JarScene.sks in Resources */,
 				EEC37A0C270385FD00C7A839 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEC6140827077F1000082701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC6143327089B8400082701 /* Localizable.strings in Resources */,
+				EEC6143527089E5B00082701 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D376C593844197C232AFBF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiriGratitude-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB9364437483660B0461094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gratitude-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEC37A00270385FB00C7A839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC37A0A270385FB00C7A839 /* ContentView.swift in Sources */,
+				EEC614202707999E00082701 /* SettingsService.swift in Sources */,
+				EE8FA7A527050D3400FDD1A0 /* GratitudeViewModel.swift in Sources */,
+				EE10F4CD2706398300632ED6 /* MotionService.swift in Sources */,
+				EEC6144A2708A65B00082701 /* Intents.intentdefinition in Sources */,
+				EE10F4D127063BFA00632ED6 /* JarScene.swift in Sources */,
+				EEE93F3127039F73005A24FF /* SettingsView.swift in Sources */,
+				EE8FA7A227050CE300FDD1A0 /* HomeViewModel.swift in Sources */,
+				EEE93F2C27039305005A24FF /* BackgroundView.swift in Sources */,
+				EEE93F2527038CB9005A24FF /* GratitudeModel.swift in Sources */,
+				EE10F4CF27063BEB00632ED6 /* JarViewModel.swift in Sources */,
+				EE8FA79B2704D77900FDD1A0 /* ColorSelectionView.swift in Sources */,
+				EE10F4C727062EB100632ED6 /* JarView.swift in Sources */,
+				EE8FA79E2704E47700FDD1A0 /* GratitudeRepository.swift in Sources */,
+				EEC6143127089A5000082701 /* NotificationService.swift in Sources */,
+				EE10F4DB270656F700632ED6 /* CreateGratitudeButton.swift in Sources */,
+				EE10F4D62706504200632ED6 /* GratitudeFieldView.swift in Sources */,
+				EEE93F2E270397FE005A24FF /* RippedPaper.swift in Sources */,
+				EE10F4DF2706579B00632ED6 /* HomeLeadingIcon.swift in Sources */,
+				EEC614222707A18200082701 /* extensions.swift in Sources */,
+				EE8FA7A72705306C00FDD1A0 /* SettingsViewModel.swift in Sources */,
+				EE10F4E5270658EA00632ED6 /* HomePaperChildView.swift in Sources */,
+				EEC37A1D270389CF00C7A839 /* colors.swift in Sources */,
+				EE10F4D82706523D00632ED6 /* DeleteAllButton.swift in Sources */,
+				EE10F4E3270658C800632ED6 /* HomePaperView.swift in Sources */,
+				EEE93F292703924A005A24FF /* HomeView.swift in Sources */,
+				EEC6141D27078D6A00082701 /* SiriService.swift in Sources */,
+				EE10F4DD2706577400632ED6 /* HomeTopBarView.swift in Sources */,
+				EE10F4E1270657F900632ED6 /* HomeLeadingIconImage.swift in Sources */,
+				EE8FA7A027050BDC00FDD1A0 /* AppDelegate.swift in Sources */,
+				EE10F4E72706593B00632ED6 /* ColorPickerView.swift in Sources */,
+				EE10F4E92706599000632ED6 /* JarButton.swift in Sources */,
 				EEC37A08270385FB00C7A839 /* gratitudeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEC6140627077F1000082701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC61419270781C400082701 /* colors.swift in Sources */,
+				EEC6143227089B7800082701 /* SettingsService.swift in Sources */,
+				EEC6143027089A5000082701 /* NotificationService.swift in Sources */,
+				EEC6141E27078DE600082701 /* SiriService.swift in Sources */,
+				EEC6143427089B8C00082701 /* extensions.swift in Sources */,
+				EEC61418270781B100082701 /* GratitudeModel.swift in Sources */,
+				EEC614172707809A00082701 /* GratitudeRepository.swift in Sources */,
+				EEC6144B2708A65B00082701 /* Intents.intentdefinition in Sources */,
+				EEC6140E27077F1000082701 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEC6141127077F1000082701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC6140927077F1000082701 /* SiriGratitude */;
+			targetProxy = EEC6141027077F1000082701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEC614252708897200082701 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC614242708897200082701 /* en */,
+				EEC614262708897900082701 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EEC6142C270891CE00082701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC6142B270891CE00082701 /* en */,
+				EEC6142D270891CF00082701 /* pt-BR */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EEC37A10270385FD00C7A839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -210,6 +679,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -263,18 +733,24 @@
 		};
 		EEC37A13270385FD00C7A839 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B72A6639D48A6F94320BC32 /* Pods-gratitude.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gratitude/gratitude.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_ASSET_PATHS = "\"gratitude/Preview Content\"";
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gratitude/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -282,29 +758,35 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gratitude;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EEC37A14270385FD00C7A839 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D14867271BABFBC3CAC34F /* Pods-gratitude.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gratitude/gratitude.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_ASSET_PATHS = "\"gratitude/Preview Content\"";
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gratitude/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -312,12 +794,68 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Gratitude;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EEC6141427077F1000082701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47B623020C251701A3E28FE /* Pods-SiriGratitude.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriGratitude/SiriGratitude.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = LP3UHZ556W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SiriGratitude/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SiriGratitude;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude.SiriGratitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EEC6141527077F1000082701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447531081AF705B5CCB62EB3 /* Pods-SiriGratitude.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriGratitude/SiriGratitude.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = LP3UHZ556W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SiriGratitude/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SiriGratitude;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude.SiriGratitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,6 +876,15 @@
 			buildConfigurations = (
 				EEC37A13270385FD00C7A839 /* Debug */,
 				EEC37A14270385FD00C7A839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC6141327077F1000082701 /* Build configuration list for PBXNativeTarget "SiriGratitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC6141427077F1000082701 /* Debug */,
+				EEC6141527077F1000082701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
