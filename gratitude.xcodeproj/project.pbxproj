@@ -55,8 +55,8 @@
 		EEC6143327089B8400082701 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC614252708897200082701 /* Localizable.strings */; };
 		EEC6143427089B8C00082701 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC614212707A18200082701 /* extensions.swift */; };
 		EEC6143527089E5B00082701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC6142C270891CE00082701 /* InfoPlist.strings */; };
-		EEC6144A2708A65B00082701 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EEC614492708A65B00082701 /* Intents.intentdefinition */; };
-		EEC6144B2708A65B00082701 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EEC614492708A65B00082701 /* Intents.intentdefinition */; };
+		EEC6144C2708A97600082701 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EEC6144F2708A97600082701 /* Intents.intentdefinition */; };
+		EEC6144D2708A97600082701 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EEC6144F2708A97600082701 /* Intents.intentdefinition */; };
 		EEE93F2527038CB9005A24FF /* GratitudeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F2427038CB9005A24FF /* GratitudeModel.swift */; };
 		EEE93F292703924A005A24FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F282703924A005A24FF /* HomeView.swift */; };
 		EEE93F2C27039305005A24FF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE93F2B27039305005A24FF /* BackgroundView.swift */; };
@@ -139,7 +139,9 @@
 		EEC6142B270891CE00082701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EEC6142D270891CF00082701 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		EEC6142E2708946C00082701 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		EEC614492708A65B00082701 /* Intents.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		EEC6144E2708A97600082701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
+		EEC614512708A97A00082701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Intents.strings; sourceTree = "<group>"; };
+		EEC614532708A97F00082701 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Intents.strings"; sourceTree = "<group>"; };
 		EEE93F2427038CB9005A24FF /* GratitudeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeModel.swift; sourceTree = "<group>"; };
 		EEE93F282703924A005A24FF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EEE93F2B27039305005A24FF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
@@ -307,7 +309,7 @@
 		EEC6140C27077F1000082701 /* SiriGratitude */ = {
 			isa = PBXGroup;
 			children = (
-				EEC614492708A65B00082701 /* Intents.intentdefinition */,
+				EEC6144F2708A97600082701 /* Intents.intentdefinition */,
 				EEC6141A2707878200082701 /* SiriGratitude.entitlements */,
 				EEC6140D27077F1000082701 /* IntentHandler.swift */,
 				EEC6140F27077F1000082701 /* Info.plist */,
@@ -533,7 +535,7 @@
 				EEC614202707999E00082701 /* SettingsService.swift in Sources */,
 				EE8FA7A527050D3400FDD1A0 /* GratitudeViewModel.swift in Sources */,
 				EE10F4CD2706398300632ED6 /* MotionService.swift in Sources */,
-				EEC6144A2708A65B00082701 /* Intents.intentdefinition in Sources */,
+				EEC6144C2708A97600082701 /* Intents.intentdefinition in Sources */,
 				EE10F4D127063BFA00632ED6 /* JarScene.swift in Sources */,
 				EEE93F3127039F73005A24FF /* SettingsView.swift in Sources */,
 				EE8FA7A227050CE300FDD1A0 /* HomeViewModel.swift in Sources */,
@@ -576,7 +578,7 @@
 				EEC6143427089B8C00082701 /* extensions.swift in Sources */,
 				EEC61418270781B100082701 /* GratitudeModel.swift in Sources */,
 				EEC614172707809A00082701 /* GratitudeRepository.swift in Sources */,
-				EEC6144B2708A65B00082701 /* Intents.intentdefinition in Sources */,
+				EEC6144D2708A97600082701 /* Intents.intentdefinition in Sources */,
 				EEC6140E27077F1000082701 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -608,6 +610,16 @@
 				EEC6142D270891CF00082701 /* pt-BR */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEC6144F2708A97600082701 /* Intents.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC6144E2708A97600082701 /* Base */,
+				EEC614512708A97A00082701 /* en */,
+				EEC614532708A97F00082701 /* pt-BR */,
+			);
+			name = Intents.intentdefinition;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -740,7 +752,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = gratitude/gratitude.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "\"gratitude/Preview Content\"";
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				ENABLE_PREVIEWS = YES;
@@ -758,7 +770,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude;
 				PRODUCT_NAME = Gratitude;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -776,7 +788,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = gratitude/gratitude.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "\"gratitude/Preview Content\"";
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				ENABLE_PREVIEWS = YES;
@@ -794,7 +806,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude;
 				PRODUCT_NAME = Gratitude;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -809,7 +821,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SiriGratitude/SiriGratitude.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SiriGratitude/Info.plist;
@@ -821,7 +833,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude.SiriGratitude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -837,7 +849,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SiriGratitude/SiriGratitude.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SiriGratitude/Info.plist;
@@ -849,7 +861,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.gratitude.SiriGratitude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

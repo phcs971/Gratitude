@@ -40,6 +40,14 @@ struct SettingsView: View {
                     .listRowBackground(Color.clear)
                     Toggle("show_notifications".localized(), isOn: $settings.showNotifications)
                         .listRowBackground(Color.clear)
+                    Link(destination: URL(string: "siri_url".localized())!) {
+                        HStack {
+                            Text("siri_connection".localized())
+                            Spacer()
+                            NavigationLink.empty
+                        }
+                    }
+                        .listRowBackground(Color.clear)
                 }
                 Section(
                     header: Text("your_gratitudes".localized())

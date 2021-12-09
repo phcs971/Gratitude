@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 extension Bundle {
     public static func localizedBundle() -> Bundle? {
@@ -20,4 +21,13 @@ extension String {
     func localized() -> String { NSLocalizedString(self, tableName: nil, bundle: .localizedBundle() ?? .main, value: "", comment: "") }
     
     func localizeWithFormat(arguments: CVarArg...) -> String { String(format: self.localized(), arguments: arguments) }
+}
+
+extension NavigationLink where Label == EmptyView, Destination == EmptyView {
+
+   /// Useful in cases where a `NavigationLink` is needed but there should not be
+   /// a destination. e.g. for programmatic navigation.
+   static var empty: NavigationLink {
+       self.init(destination: EmptyView(), label: { EmptyView() })
+   }
 }
