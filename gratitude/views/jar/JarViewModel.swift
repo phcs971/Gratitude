@@ -42,7 +42,6 @@ class JarViewModel: ObservableObject {
         scene.scaleMode = SKSceneScaleMode.aspectFit
         
         motionService.$vector.sink { self.scene.onMotion($0) }.store(in: &cancellables)
-        
         gratitudeRepository.$gratitudes.sink(receiveValue: handleGratitudes(_ :)).store(in: &cancellables)
     }
 }
